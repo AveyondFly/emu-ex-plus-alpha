@@ -41,6 +41,6 @@ $(makeFile) : $(buildDir)/Tremor/configure
 	@mkdir -p $(@D)
 	cd $(@D) && $(toolchainEnvParams) CFLAGS="$(CPPFLAGS) $(CFLAGS)" LDFLAGS="$(LDFLAGS) $(LDLIBS)" \
 	PKG_CONFIG_SYSTEM_INCLUDE_PATH=$(system_externalSysroot)/include ./Tremor/configure \
-	--prefix='$${pcfiledir}/../..' --disable-shared --host=$(CHOST) PKG_CONFIG_PATH=$(PKG_CONFIG_PATH) \
+	--prefix='$${pcfiledir}/../..'  --host=$(CHOST) PKG_CONFIG_PATH=$(PKG_CONFIG_PATH) \
 	PKG_CONFIG=pkg-config $(buildArg)
 

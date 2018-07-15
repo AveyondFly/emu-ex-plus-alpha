@@ -1,2 +1,2 @@
-LTO_MODE ?= lto-fat
+LTO_MODE ?= off
 pkgName := libvorbis

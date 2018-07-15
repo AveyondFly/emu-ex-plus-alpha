@@ -12,8 +12,8 @@ makeFile := $(buildDir)/Makefile
 outputLibFile := $(buildDir)/.libs/libarchive.a
 installIncludeDir := $(installDir)/include
 
-pkgCFlags := $(shell PKG_CONFIG_PATH=$(PKG_CONFIG_PATH) pkg-config liblzma --cflags)
-pkgLibs := $(shell PKG_CONFIG_PATH=$(PKG_CONFIG_PATH) pkg-config liblzma --libs)
+pkgCFlags := $(shell PKG_CONFIG_PATH=$(PKG_CONFIG_PATH))
+pkgLibs := $(shell PKG_CONFIG_PATH=$(PKG_CONFIG_PATH))
 
 all : $(outputLibFile)
 

@@ -1,0 +1,10 @@
+EmuFramework/build/
+EmuFramework/lib/
+NES.emu/build/
+NES.emu/target/
+imagine/build/
+imagine/bundle/all/config.log
+imagine/bundle/all/test.sh
+imagine/lib/
+imagine/src/base/android/imagine-v9/.gradle/
+imagine/src/base/android/imagine-v9/build/
